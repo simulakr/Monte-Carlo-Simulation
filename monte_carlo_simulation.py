@@ -59,6 +59,13 @@ print(f"Last price is {last_price:.2f}")
 print(f"Most likely simulation's final price is {most_likely_simulation[-1]:.2f}")
 print(f"Most likely simulation's return is %{(most_likely_simulation[-1]/last_price -1)*100:.2f}")
 
+plt.figure(figsize=(10,5))
+plt.plot(most_likely_simulation)
+plt.title('Most Likely Simulation')
+plt.xlabel('Days')
+plt.ylabel('Price')
+plt.show()
+
 def get_top_drawdowns(df, column='Close'):
 
     prices = df[column]
