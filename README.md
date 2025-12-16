@@ -1,6 +1,6 @@
 # Monte Carlo Simulation
 
-![Monte Carlo](monte carlo.png)
+![Monte Carlo](monte_carlo.png)
 
 ### Max Drawdowns
 
